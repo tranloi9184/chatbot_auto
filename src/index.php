@@ -4,7 +4,7 @@
  <?php require_once('inc/header.php') ?>
   <body class="hold-transition layout-top-nav" >
     <div class="wrapper">
-     <?php require_once('inc/topBarNav.php') ?>
+     <?php require_once('inc/top_bar.php') ?>
      <?php echo 'phpinfo()'; ?>
      <?php phpinfo(); ?>
      <?php $page = isset($_GET['page']) ? $_GET['page'] : 'portal';  ?>
